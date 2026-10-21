@@ -25,10 +25,14 @@ Tkinter is usually included with the official macOS Python installer. If your Py
 Clone the repository, open its directory, and run:
 
 ```bash
-python3 main.py
+python3 app/main.py
 ```
 
 Enter `/Library` or another directory in the Folder field, then click **Scan**.
+
+Click any detected directory to open its detail view. The detail view shows the
+directory's immediate files and subdirectories, and subdirectories can be opened
+again for deeper inspection.
 
 ## Build the macOS App
 
